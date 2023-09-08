@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  RickAndMorty
+//  RickandMorty
 //
-//  Created by Cluzel Killian on 05/09/2023.
+//  Created by Cluzel Killian on 06/09/2023.
 //
 
 import UIKit

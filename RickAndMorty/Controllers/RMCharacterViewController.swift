@@ -1,18 +1,19 @@
 //
-//  RMSettingsViewController.swift
-//  RickAndMorty
+//  RMCharacterViewController.swift
+//  RickandMorty
 //
-//  Created by Cluzel Killian on 05/09/2023.
+//  Created by Cluzel Killian on 08/09/2023.
 //
+
 
 import UIKit
 
-final class RMSettingsViewController: UIViewController {
+final class RMCharacterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
-        title =  "Settings"
+        title =  "Characters"
 
         // Do any additional setup after loading the view.
     }

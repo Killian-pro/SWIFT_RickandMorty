@@ -1,22 +1,25 @@
 //
-//  RMEpisodeViewController.swift
-//  RickAndMorty
+//  RMLocationViewController.swift
+//  RickandMorty
 //
-//  Created by Cluzel Killian on 05/09/2023.
+//  Created by Cluzel Killian on 08/09/2023.
 //
 
 import UIKit
 
-final class RMEpisodeViewController: UIViewController {
+final class RMLocationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         view.backgroundColor = .systemBackground
-        title =  "Episodes"
+        title =  "Locations"
 
         // Do any additional setup after loading the view.
     }
     
 
 
+
 }
+
