@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F2C62437-A6E0-425D-BA36-67BECC29693C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "262D3A61-EBBE-448C-A752-AFFA1DC9F2A8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickandMorty/APIClient/RMService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "RMService"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "262D3A61-EBBE-448C-A752-AFFA1DC9F2A8 - cd75bd7300eca29c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickandMorty.RMService.__allocating_init() -&gt; RickandMorty.RMService"
+                  moduleName = "RickandMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cluzel.killian/Documents/SWIFT_RickandMorty/RickandMorty/APIClient/RMService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "262D3A61-EBBE-448C-A752-AFFA1DC9F2A8 - d8e6ce24baa8782d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickandMorty.RMService.() -&gt; RickandMorty.RMService.init() -&gt; RickandMorty.RMService"
+                  moduleName = "RickandMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cluzel.killian/Documents/SWIFT_RickandMorty/RickandMorty/APIClient/RMService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "262D3A61-EBBE-448C-A752-AFFA1DC9F2A8 - d8e6ce24baa878ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickandMorty.RMService.() -&gt; RickandMorty.RMService.init() -&gt; RickandMorty.RMService"
+                  moduleName = "RickandMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cluzel.killian/Documents/SWIFT_RickandMorty/RickandMorty/APIClient/RMService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1450D2A9-FFCC-430C-B22E-037854C6C1F4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickandMorty/APIClient/RMRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "RMRequest"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1450D2A9-FFCC-430C-B22E-037854C6C1F4 - 84dd0566f71c8ef4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickandMorty.RMRequest.deinit"
+                  moduleName = "RickandMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cluzel.killian/Documents/SWIFT_RickandMorty/RickandMorty/APIClient/RMRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1450D2A9-FFCC-430C-B22E-037854C6C1F4 - 49d17444ae351273"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickandMorty.RMRequest.__deallocating_deinit"
+                  moduleName = "RickandMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cluzel.killian/Documents/SWIFT_RickandMorty/RickandMorty/APIClient/RMRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "1450D2A9-FFCC-430C-B22E-037854C6C1F4 - a15a5077ab06d5fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickandMorty.RMRequest.__allocating_init() -&gt; RickandMorty.RMRequest"
+                  moduleName = "RickandMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cluzel.killian/Documents/SWIFT_RickandMorty/RickandMorty/APIClient/RMRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "1450D2A9-FFCC-430C-B22E-037854C6C1F4 - 124755972860d88e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickandMorty.RMRequest.init() -&gt; RickandMorty.RMRequest"
+                  moduleName = "RickandMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cluzel.killian/Documents/SWIFT_RickandMorty/RickandMorty/APIClient/RMRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "1450D2A9-FFCC-430C-B22E-037854C6C1F4 - 84dd0566f71c8c4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickandMorty.RMRequest.deinit"
+                  moduleName = "RickandMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cluzel.killian/Documents/SWIFT_RickandMorty/RickandMorty/APIClient/RMRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
