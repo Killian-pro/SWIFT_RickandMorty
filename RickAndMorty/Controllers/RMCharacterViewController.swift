@@ -6,33 +6,34 @@
 //
 
 
+//EXEMPLE REQUEST
+// let request = RMRequest(endpoint: .character, pathComponents: ["1"])
+//        let request = RMRequest(endpoint: .character, queryParameters: [URLQueryItem(name: "name", value: "rick"),URLQueryItem(name: "status", value: "alive")] )
+
+
 import UIKit
 
 final class RMCharacterViewController: UIViewController {
+    
+    private let characterListView = CharacterListView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         title =  "Characters"
-        
-       // let request = RMRequest(endpoint: .character, pathComponents: ["1"])
-        let request = RMRequest(endpoint: .character, queryParameters: [URLQueryItem(name: "name", value: "rick"),URLQueryItem(name: "status", value: "alive")] )
-        
-        //print(request.url)
-        
-        RMService.shared.execute(.listCharactersRequests, expecting: RMGetAllCharactersResponse.self) { result in
-            switch result{
-            case .success(let model):
-                print("Total")
-            case .failure(let error):
-                print(String(describing: error))
-            }
-        }
-
-        // Do any additional setup after loading the view.
+        setUpView()
     }
     
-
+    private func setUpView()
+    {
+        view.addSubview(characterListView)
+        NSLayoutConstraint.activate(
+            [characterListView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+             characterListView.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor),
+             characterListView.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor),
+             characterListView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
+            ])
+    }
 
 
 }
